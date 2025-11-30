@@ -1,0 +1,20 @@
+# Large data files - should not be tracked in git
+*.json.gz
+*.json
+*.csv
+*.csv.gz
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/
+
